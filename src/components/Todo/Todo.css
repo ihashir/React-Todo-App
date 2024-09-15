@@ -1,0 +1,19 @@
+.main .todos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+
+}
+.todos div{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.todo button{
+    
+    margin: 0px 5px;
+    padding: 3px 7px;
+    
+}

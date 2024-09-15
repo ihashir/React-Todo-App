@@ -1,0 +1,70 @@
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+.main{
+    max-width: 700px;
+    background-color: rgb(220, 235, 241);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.233);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    min-height: 80vh;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+.main input[type="checkbox"]{
+    margin-right: 7px;
+  }
+.main hr{
+    
+    width: 100%;
+}
+.main h1{
+    font-size: 25px;
+  }
+.main h2{
+font-size: 20px;
+  }
+  .search{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    gap: 10px;
+    margin: 10px 0px;
+  }
+.search input{
+width: 85%;
+height: 100%;
+border: none;
+border-radius: 20px;
+padding: 0 10px;
+
+  }
+  
+input:focus{
+  border: none;
+  outline: none;
+}
+button{
+    width: 53px;
+    height: 100%;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(163, 87, 163);
+    color: white;
+    /* font-size: 12px; */
+
+}
+button:hover{
+    
+    background-color: rgb(136, 73, 136);
+    cursor: pointer;
+}
+  
+
+

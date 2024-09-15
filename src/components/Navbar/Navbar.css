@@ -1,0 +1,25 @@
+nav{
+    background-color: rgb(1, 85, 180);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 50px;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.menu li{
+    float: left;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+.menu a:hover{
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.849);
+}
